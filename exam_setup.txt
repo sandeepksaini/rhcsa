@@ -1,0 +1,23 @@
+
+1) Read the question carefully and interpret it what's written line by line rather assuming or inserting your own information.
+2) Divide the question and try to perform the one related to partition first,
+3) Don't disable selinux policy and check at the end of the exam that it is enabled
+4) 
+
+
+Start with setting up the ssh server login using alias, so that everytime you reboot you can login at one go.
+1) sshkeygen -t RSA -P ""
+2) ssh-copy-id -i id_rsa.pub root@servername 
+3) alias lablogin='ssh root@servername'
+
+Update you man database using below command:
+#mandb
+
+After running a command or a whole set of commands make sure you check it. 
+For example: add user -> check /etc/passwd file, 
+made changes to fstab -> reboot machine, ensure partition is mounted
+
+7. First thing in exam -> read all questions and pick all related to partitions and logical volumes first. 
+If you make a mistake at beginning you will be able to revert your changes and start exam from scratch. 
+If you make a mistake with partitions in middle-end of exam there will be no time to redo all tasks.
+
