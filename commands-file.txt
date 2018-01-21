@@ -1,0 +1,33 @@
+Module 1: Performing Basic System Management Tasks
+Lesson 1: Installing Red Hat Enterprise Linux Server
+Lesson 2: Using Essential Tools
+Lesson 3: Essential File Management Tools
+Lesson 4: Working with Text Files
+Lesson 5: Connecting to a RHEL Server
+Lesson 6: Managing Users and Groups
+Lesson 7: Managing Permissions
+Lesson 8: Configuring Networking
+
+Module 2: Operating Red Hat Enterprise Linux Servers
+Lesson 9: Managing Processes
+Lesson 10: Managing Software
+Lesson 11: Working with Virtual Machines
+Lesson 12: Scheduling Tasks
+Lesson 13: Configuring Logging
+Lesson 14: Managing Partitions
+Lesson 15: Managing LVM Logical Volumes
+
+Module 3: Performing Advanced System Administration Tasks
+Lesson 16: Managing the Kernel
+Lesson 17: Managing and Understanding the Boot Procedure
+Lesson 18: Applying Essential Troubleshooting Skills
+
+Module 4: Managing Network Services
+
+Lesson 20: Connecting to an LDAP Server
+Lesson 21: Accessing Remote File Systems and Automount
+Lesson 22: Managing SELinux
+Lesson 23: Configuring a Firewall
+Lesson 24: Using Kickstart
+Lesson 25: Configuring Time Services
+Lesson 26: Managing SSH
