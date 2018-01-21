@@ -1,5 +1,5 @@
 ##### To Find out the Linux Versions
-##### Linux Kernel Version
+##### Commands for linux kernel version
 * uname -r
 * uname -mrs
 * uname -a
