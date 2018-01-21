@@ -3,8 +3,10 @@
 * uname -r
 * uname -mrs
 * uname -a
+* /proc/version
+* cat /proc/sys/kernel/{ostype,osrelease,version}
 
-###### 2.6.32-23 – Linux kernel version number
-###### pae – pae kernel type indicate that I’m accssing more than 4GB ram using 32 bit kernel.
-###### SMP – Kernel that supports multi core and multiple cpus.
-##### Linux hostname, Kernel Version  
+
+##### To find out the distribution version
+* cat /etc/*release
+* lsb_release -a
