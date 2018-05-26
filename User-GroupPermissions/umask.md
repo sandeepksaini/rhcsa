@@ -15,3 +15,5 @@ else
     echo "Applying umask to ROOT. File Name : `echo $0`"
 fi
 ```
+
+If you want to apply specific umask to the users, you may choose to apply inside users **bashrc** file present in their home directory.
