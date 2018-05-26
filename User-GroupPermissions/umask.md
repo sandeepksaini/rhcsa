@@ -22,11 +22,9 @@ If you want to apply specific umask to the users, you may choose to apply inside
 #### SUID, SGID & STICKYBIT
 
 | Permission | Octal Value | Behaviour - File | Behaviour - Folder |
---------------------------------------------------------------------
+-------------|-------------|------------------|--------------------|
 | SUID | 4 | Run as owner | N/A |
-------------------------------
 | SGID | 2 | Run as Group Owner | Inherit group owner |
----------------------------------------------------
 | Sticky Bit | 1 | N/A | Delete file inside dir only if owner or owner of dir |
-_____________________________________________________________________________
+
 
