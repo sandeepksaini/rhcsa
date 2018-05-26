@@ -1,5 +1,5 @@
 #### Umask application<p>
-Umask is normally applied using two files**(SHELL STARTUP FILES)** in /etc directory i.e. are **profile** & **bashrc**.
+Umask is normally applied using two files **(SHELL STARTUP FILES)** in /etc directory i.e. are **profile** & **bashrc**.
 * profile - This file is used when you login to host and new shell is spawned by the host. Normally using ```ssh``` or GUI.
 * bashrc - This file is used when you start a new child shell. Normally using ```su``` .
 
