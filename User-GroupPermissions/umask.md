@@ -1,10 +1,10 @@
 #### Umask application<p>
 Umask is normally applied using two files in /etc directory i.e. are **profile** & **bashrc**.
 * profile - This file is used when you login to host and new shell is spawned by the host. Normally using ```ssh``` or GUI.
-* bashrc - This file is used when you start a new child shell. Normally using ```su```.
+* bashrc - This file is used when you start a new child shell. Normally using ```su``` .
 
 You can make changes to these file as below to understand the login behaviour of shell and how umask is applied using these files.
-Chnages made in **profile** file and similarlly you can insert changes to **bashrc** file too.
+Changes made in **profile** file and similarlly you can insert changes to **bashrc** file too.
 
 ```
 if [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then
